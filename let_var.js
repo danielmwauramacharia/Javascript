@@ -13,6 +13,7 @@ function myFunction() {
         - cannot be accessed outside this scope
         */
         let myVar = "John";
+        let myvar = "John"; // Raises Error, you cannot re-declare let variables in the same scope
         console.log(myVar);
     }
     console.log(myVar);
