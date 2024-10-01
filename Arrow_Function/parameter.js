@@ -21,5 +21,9 @@ console.log(double1(2)); //4
 
 //To imlicitly return an object, parentheses need to be used
 const getPerson = () => ({name: "Nick", age: 24});
-console.log(getPerson());
+console.log(getPerson()); //{ name: 'Nick', age: 24 } is the output
+
+//multiple parameters
+const multiply = (a, b) => a * b;
+console.log(multiply(5, 6));
 
