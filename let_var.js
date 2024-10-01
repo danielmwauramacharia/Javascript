@@ -13,7 +13,11 @@ function myFunction() {
         - cannot be accessed outside this scope
         */
         let myVar = "John";
-        let myvar = "John"; // Raises Error, you cannot re-declare let variables in the same scope
+        let myVar = "John";
+        /*
+        Trying the line above, Raises Error, you cannot re-declare let variables in the same scope
+        SyntaxError: Identifier 'myVar' has already been declared
+        */
         console.log(myVar);
     }
     console.log(myVar);
