@@ -73,7 +73,6 @@ const user = {
         age_: 30
     }
 }
-
 const {profile: {name_, age_}} = user;
 console.log(name_);
 console.log(age_);

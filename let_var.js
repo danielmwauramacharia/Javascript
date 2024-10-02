@@ -1,7 +1,7 @@
 /* let and var are almost the same but;
-    - let are scope based
-    - cannot be accessed before declared
-    - cannot be re-declared in the same scope
+    - both are scope based but let;
+    . cannot be accessed before declared
+    . cannot be re-declared in the same scope
 */
 
 function myFunction() {

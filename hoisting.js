@@ -6,6 +6,6 @@ var myVar = 2;
 
 // this is how the above code is understood by the interpreter
 
-// var myVar1;
-// console.log(myVar1) // undefined - no error raised
-// myVar1 = 2; 
+// var myVar;
+// console.log(myVar) // undefined - no error raised
+// myVar1 = 2;
