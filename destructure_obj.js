@@ -63,3 +63,17 @@ console.log("---------------------------Arrow Function--------------------------
 // destructure is even more pleasant with arrow function
 const joinFirstLastName_ = ({name, lastName}) =>  name + '-' + lastName;
 console.log(joinFirstLastName_(person));
+
+
+//nested destructuring
+const user = {
+    id: 1,
+    profile: {
+        name_: "Nick",
+        age_: 30
+    }
+}
+
+const {profile: {name_, age_}} = user;
+console.log(name_);
+console.log(age_);
